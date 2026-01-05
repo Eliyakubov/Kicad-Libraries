@@ -1,0 +1,136 @@
+(footprint "OSC-SMD_3P-L3.2-W1.3-P0.95-L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "edf073a4-af75-4ace-b5ef-9a34636606d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OSC-SMD_3P-L3.2-W1.3-P0.95-L"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "fe05461e-90e8-477b-8825-0abc82b3ea32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2ae9513-b3fe-4087-9766-bca4d4d491d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82c4ccbb-03b2-4a63-9f55-ee446165ce92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c4232b8-161c-4c03-8d70-c62c90709a5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -0.65)
+		(end -1.6 0.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "802192ff-439c-46f1-961a-f36e49e046ce")
+	)
+	(fp_line
+		(start 1.6 0.65)
+		(end 1.6 -0.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0b39c4a-eb1e-44b5-80c8-cbbdc986d13a")
+	)
+	(fp_circle
+		(center -1.6 0.65)
+		(end -1.57 0.65)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bea57555-7e4c-41fb-8998-fbf991ad4d03")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "112e241a-f338-4dbb-9dbf-da196e81c776")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 0 90)
+		(size 1.6 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0ed41fb3-9ebd-489d-a963-bde20eb6b5a0")
+	)
+	(pad "2" smd rect
+		(at 0 0 90)
+		(size 1.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03d607f2-54c4-49e3-8673-07601b0941df")
+	)
+	(pad "3" smd rect
+		(at 0.95 0 90)
+		(size 1.6 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b0098c60-4598-481a-bdc1-7e57e65cdb92")
+	)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/OSC-SMD_3P-L3.2-W1.3-H0.8-P0.95.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
