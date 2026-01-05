@@ -4425,7 +4425,7 @@
 			)
 		)
 		(property "Value" "CYA0630-6.8UH"
-			(at 0 -5.08 0)
+			(at 0.254 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,13 +4451,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.5A 50mΩ 6.8uH 6A ±20% SMD,7.2x6.6mm Inductors (SMD) ROHS"
+		(property "Description" "6.8UH"
 			(at -0.508 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part" "C5189749"

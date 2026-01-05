@@ -145,7 +145,7 @@
 		(uuid "23255554-f3b5-48c4-ab56-02011c68b046")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/ey74542/Documents/Kicad/easyeda2kicad/easyeda2kicad.3dshapes/IND-SMD_L7.2-W6.6-H3.0_GPSR0730.step"
+	(model "C:/Eli/Kicad-Libraries/easyeda2kicad.3dshapes/IND-SMD_L7.2-W6.6-H3.0_GPSR0730.step"
 		(offset
 			(xyz 0 0 0)
 		)
